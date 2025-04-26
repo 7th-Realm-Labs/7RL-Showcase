@@ -1,0 +1,27 @@
+My_App_Name/               # root of your Flutter project
+├── android/               # Android native project
+├── ios/                   # iOS native project
+├── lib/                   # all your Dart code
+│   ├── main.dart          # app entry point
+│   ├── config/
+│   │   └── dev_flags.dart # debug / simulation flags
+│   ├── providers/
+│   │   └── subscription_provider.dart
+│   ├── services/
+│   │   └── iap_service.dart
+│   ├── utils/
+│   │   └── subscription_utils.dart
+│   ├── screens/
+│   │   ├── home_page_related/
+│   │   │   └── product_tabs_page.dart
+│   │   └── subscription_dialog.dart
+│   └── widgets/           # any reusable UI components
+├── assets/                # images, fonts, etc.
+│   ├── icons/
+│   └── images/
+├── test/                  # your unit & widget tests
+│   ├── unit/
+│   └── widget/
+├── pubspec.yaml           # Flutter dependencies & assets
+├── .gitignore
+└── README.md
